@@ -1,5 +1,5 @@
 name: 2nd-learn-action
-run-name: ${{ gitub.actor }} is learning GitHub Actions
+run-name: ${{ github.actor }} is learning GitHub Actions
 on: [push]
 jobs:
   check-bats-version:
